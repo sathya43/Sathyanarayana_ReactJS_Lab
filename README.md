@@ -1,6 +1,6 @@
 Steps to run the server:
 
-The expense tracker react app required information from a json server running on port 3000. I have added the fake server project here. It is present in the folder
+The expense tracker react app requires information from a json server running on port 3000. I have added the fake server project here. It is present in the folder
 fake_server. This fake server should be started before starting the expense tracker app. Follow the below steps to run the expense tracker succesfully.
 
 Step 1: Download the Code as Zip and Unzip the folder
