@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { postItem } from '../../../services/items'
+import { useNavigate } from 'react-router-dom'
 
 type Props = {
   onTrue: any
@@ -11,6 +12,7 @@ const AddExpenseItemFrom = ({ onTrue, onClose }: Props) => {
   const [product, setProductName] = useState('')
   const [price, setPriceValue] = useState(0)
   const [setDate, setSetDateValue] = useState(getCurrentDate())
+  const navigate = useNavigate()
 
   function getCurrentDate() {
     let today = new Date()
@@ -42,6 +44,7 @@ const AddExpenseItemFrom = ({ onTrue, onClose }: Props) => {
     const finalItem = { payeeName, product, price, setDate }
     const data = postItem(finalItem)
     onTrue()
+    navigate('/')
   }
 
   return (

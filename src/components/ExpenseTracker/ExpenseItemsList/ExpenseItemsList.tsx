@@ -36,7 +36,7 @@ const ExpenseItemsList = () => {
       }
     }
     helper()
-  }, [showForm])
+  })
 
   const calculateShare = (data: IProduct[]) => {
     let rahulExpense = 0
