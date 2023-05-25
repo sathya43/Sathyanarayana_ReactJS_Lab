@@ -118,55 +118,6 @@
       "price": 200,
       "setDate": "2022-05-30",
       "id": 17
-    },
-    {
-      "payeeName": "Rahul",
-      "product": "qswde",
-      "price": 8,
-      "setDate": "2023-03-01",
-      "id": 18
-    },
-    {
-      "payeeName": "Rahul",
-      "product": "iPhone",
-      "price": 10345,
-      "setDate": "2023-05-03",
-      "id": 19
-    },
-    {
-      "payeeName": "Ramesh",
-      "product": "iphone11",
-      "price": 10345,
-      "setDate": "2023-05-04",
-      "id": 20
-    },
-    {
-      "payeeName": "Ramesh",
-      "product": "adsdas",
-      "price": 12,
-      "setDate": "2023-05-02",
-      "id": 21
-    },
-    {
-      "payeeName": "Ramesh",
-      "product": "xyz",
-      "price": 1234,
-      "setDate": "2023-05-25",
-      "id": 22
-    },
-    {
-      "payeeName": "Ramesh",
-      "product": "sdad",
-      "price": 123,
-      "setDate": "2023-05-25",
-      "id": 23
-    },
-    {
-      "payeeName": "Rahul",
-      "product": "asa",
-      "price": 1234,
-      "setDate": "2023-05-25",
-      "id": 24
     }
   ]
 }
