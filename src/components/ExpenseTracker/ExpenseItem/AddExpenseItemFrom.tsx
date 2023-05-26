@@ -42,8 +42,13 @@ const AddExpenseItemFrom = ({ onTrue, onClose }: Props) => {
   function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault()
     const finalItem = { payeeName, product, price, setDate }
-    const data = postItem(finalItem)
+    postItem(finalItem)
     onTrue()
+    navigate('/')
+  }
+
+  function handleCancel() {
+    onClose()
     navigate('/')
   }
 
@@ -108,7 +113,7 @@ const AddExpenseItemFrom = ({ onTrue, onClose }: Props) => {
           </article>
 
           <article>
-            <button className='form-button' onClick={onClose}>
+            <button className='form-button' onClick={handleCancel}>
               Close
             </button>
             <button className='form-button' onSubmit={onTrue}>
